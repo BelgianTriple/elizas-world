@@ -6,7 +6,7 @@ import { getCachedData, setCachedData, shouldRefreshCache } from '@/lib/cache';
 const WALLET_ADDRESS = 'AM84n1iLdxgVTAyENBcLdjXoyvjentTbu5Q6EpKV1PeG';
 
 const connection = new Connection(
-    process.env.NEXT_PUBLIC_RPC_ENDPOINT || 'https://solana-mainnet.g.alchemy.com/v2/your-api-key',
+    process.env.NEXT_PUBLIC_RPC_ENDPOINT || 'https://solana-mainnet.g.alchemy.com/v2/ZET_UeTzCYNhflpFmQ0jNkxWs1E6DkZ0',
     'confirmed'
 );
 
